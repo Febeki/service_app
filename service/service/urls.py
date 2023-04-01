@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework import routers
 
-from clients.views import SubscriptionView
+from services.views import SubscriptionView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
